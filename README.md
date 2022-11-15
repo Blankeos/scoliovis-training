@@ -2,7 +2,7 @@
 
 > ⚠ Documentation is still under construction! Be careful.
 
-This repository contains instructions for replicating our training process during for [ScolioVis](https://scoliovis.vercel.app/).
+This repository contains instructions for replicating our training process for [ScolioVis](https://scoliovis.vercel.app/).
 
 We also store the training scripts for evaluating the **KeypointRCNN Model** for [ScolioVis](https://scoliovis.vercel.app/), as well as the instructions for replicating the training process for our research on Google Colab.
 
