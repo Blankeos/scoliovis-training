@@ -20,7 +20,10 @@ class CocoEvaluator:
         self.iou_types = iou_types
         self.coco_eval = {}
         for iou_type in iou_types:
-            self.coco_eval[iou_type] = COCOeval(coco_gt, iouType=iou_type)
+            # self.coco_eval[iou_type] = COCOeval(coco_gt, iouType=iou_type)
+            coco_eval = COCOeval(coco_gt, iouType=iou_type)
+            coco_eval.params.kpt_oks_sigmas = np.array([.5, .5, .5, .5]) / 10.0 # 4 keypoints
+            self.coco_eval[iou_type] = coco_eval
 
         self.img_ids = []
         self.eval_imgs = {k: [] for k in iou_types}
