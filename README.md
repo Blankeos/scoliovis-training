@@ -41,9 +41,15 @@ We also store the training scripts for evaluating the **KeypointRCNN Model** for
 
 ### References:
 
+- Training Scripts:
+
+  - The training scripts in this repository can be obtained from either [**pytorch**/vision/references/detection](https://github.com/pytorch/vision/tree/main/references/detection) or [**alexppppp**/keypoint_rcnn_training_pytorch](https://github.com/alexppppp/keypoint_rcnn_training_pytorch).
+  - I then changed `coco_eval.py` to contain the following since the model has 4 points for each instance detected:
+    ```py
+    # some code here
+    ```
+
 - [Detailed Medium Article on Custom Keypoint RCNN Training](https://medium.com/@alexppppp/how-to-train-a-custom-keypoint-detection-model-with-pytorch-d9af90e111da)
-- Training scripts were originally taken from [**pytorch**/vision/references/detection](https://github.com/pytorch/vision/tree/main/references/detection).
-- Training scripts are also available here on [**alexppppp**/keypoint_rcnn_training_pytorch](https://github.com/alexppppp/keypoint_rcnn_training_pytorch).
 
 > **pytorch**/vision/references/detection content below ⬇
 
