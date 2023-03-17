@@ -1,10 +1,10 @@
-# ScolioVis Training
+# 🦴💪 ScolioVis Training
 
-> ⚠ Documentation is still under construction! Be careful.
-
-This repository contains instructions for replicating our training process for [ScolioVis].
+This repository contains instructions for replicating our training process for our thesis project entitled: ***"ScolioVis: Automated Cobb Angle Measurement on Anterior-Posterior Spine X-Rays using Multi-Instance Keypoint Detection with Keypoint RCNN"***.
 
 We also store the training scripts for evaluating the **KeypointRCNN Model**, as well as the instructions for replicating the training process for our research on Google Colab.
+
+For more information on the whole project go to [blankeos/scoliovis](https://github.com/Blankeos/scoliovis).
 
 ### Instructions
 
@@ -12,7 +12,7 @@ We also store the training scripts for evaluating the **KeypointRCNN Model**, as
 
    You should receive a file called `boostnet_labeldata.zip` from them. Unzip that and save the root of the `boostnet_labeldata` folder on your Google Drive.
 
-2. Execute and follow the steps on our **[Preprocessing Notebook]**
+2. Execute and follow the steps on our **[Preprocessing Notebook](https://colab.research.google.com/drive/1Rlt43PWo6NYREuDsGT8K5tRg5QqfFdVc?usp=sharing)**
 
    The final data should look like:
 
@@ -35,7 +35,7 @@ We also store the training scripts for evaluating the **KeypointRCNN Model**, as
 
    After following the instructions, your final data should be saved on your Google Drive for training later on.
 
-3. Execute and follow the steps on our **[Training Notebook]**
+3. Execute and follow the steps on our **[Training Notebook](https://colab.research.google.com/drive/1aaTWt2rZ-M7YlqIus7aC-84SorjNwl8G?usp=sharing)**
 
 4. You finished everything! 🎉
 
@@ -52,6 +52,14 @@ We also store the training scripts for evaluating the **KeypointRCNN Model**, as
 - [Detailed Medium Article on Custom Keypoint RCNN Training](https://medium.com/@alexppppp/how-to-train-a-custom-keypoint-detection-model-with-pytorch-d9af90e111da)
 
 > **pytorch**/vision/references/detection content below ⬇
+
+<br />
+<br />
+<br />
+
+<p align="center">
+⚠⚠⚠ Everything below this point is from <a href="https://github.com/pytorch/vision/tree/main/references/detection">pytorch/vision/references/detection</a>⚠⚠⚠
+</p>
 
 ---
 
