@@ -1,6 +1,8 @@
 # 🦴💪 ScolioVis Training
 
-This repository contains instructions for replicating our training process for our thesis project entitled: ***"ScolioVis: Automated Cobb Angle Measurement on Anterior-Posterior Spine X-Rays using Multi-Instance Keypoint Detection with Keypoint RCNN"***.
+![preview](/scoliovistraining-preview.gif)
+
+This repository contains instructions for replicating our training process for our thesis project entitled: **_"ScolioVis: Automated Cobb Angle Measurement on Anterior-Posterior Spine X-Rays using Multi-Instance Keypoint Detection with Keypoint RCNN"_**.
 
 We also store the training scripts for evaluating the **KeypointRCNN Model**, as well as the instructions for replicating the training process for our research on Google Colab.
 
